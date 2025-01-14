@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Now - Shutter Squad</title>
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="headerSection">
+        <div class="container header-section">
+            <h1>Join Shutter Squad</h1>
+            <p>Become a part of our vibrant photography community.</p>
+        </div>
+    </header>
+
+    <!-- Join Form Section -->
+    <section  class="join-form-section">
+        <div class="container">
+            <h2 id="formContainer">Fill out the form to join us</h2>
+
+            <!-- Form -->
+            <form id="joinForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="interest">Your Interest in Photography:</label>
+                    <textarea id="interest" name="interest" rows="3" placeholder="Describe your interest or goals in photography" required></textarea>
+                </div>
+
+                <button type="submit" class="primary-button">Submit</button>
+            </form>
+
+            <!-- Success Message -->
+            <div id="formSuccess" class="form-success hide"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <p>&copy; 2025 Shutter Squad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="join.js"></script>
+</body>
+</html>
